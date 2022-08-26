@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese nombre"><br>
+        <label for="clave">Clave:</label>
+        <input type="password" name="Clave" placeholder="clave"><br>
+        <input type="submit" name="submit" id="submit" value="Enviar"><br>
+        <input type="reset" name="reset" id="reset" value="Cancelar">
+        <hr>
+        <h3>Estado civil</h3>
+        <label for="soltero">Soltero</label>
+        <input type="radio" name="estadoC" id="soltero" value="1">
+        <label for="casado">Casado</label>
+        <input type="radio" name="estadoC" id="casado" value="2">
+        <label for="divor">Divorciado</label>
+        <input type="radio" name="estadoC" id="divor" value="3">
+        <hr>
+        <h3>Seleccione los lenguajes que domina</h3>
+        <input type="checkbox" name="leng1">Java <br>
+        <input type="checkbox" name="leng2">Python <br>
+        <hr>
+        <h3>Seleccione la ciudad de trabajo</h3>
+        <select name="ciudad" id="ciudad">
+            <option value="1">Bogota</option>
+            <option value="2">Manizales</option>
+            <option value="3">Pereira</option>
+        </select><br>
+        <h3>Seleccione la ciudad de trabajo</h3>
+        <select name="ciudad" id="ciudad" multiple>
+            <option value="1">Bogota</option>
+            <option value="2">Manizales</option>
+            <option value="3">Pereira</option>
+            <option value="4">Cali</option>
+            <option value="5">Barranquilla</option>
+            <option value="6">Pasto</option>
+        </select>
+
+
+
+    </form>
+</body>
+</html>
