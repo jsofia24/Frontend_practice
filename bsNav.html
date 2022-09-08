@@ -19,13 +19,25 @@
             <li class="nav-item">
                 <a class="nav-link" href="bsTablas.html">BS Tablas</a>
             </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  No bootstrap
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="holamundo.html">Hola mundo</a></li>
+                  <li><a class="dropdown-item" href="formulario.html">Formulario</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="htmlEstilos.html">Estilos</a></li>
+                </ul>
+              </li>
         </ul>
     </nav>
     <div class="container">
         <h1>Cards en BS</h1>
         <div class="row">
             <div class="col-md">
-                <div class="card text-center">
+                <div class="card text-center bg-info">
+                    <img src="imagen.jpg" alt="fitness" class="card-img-top">
                     <div class="card-body">
                         <h4 class="card-title">Tipo de ejemplo</h4>
                         <p class="card-text">Hola este es el ejemplo de las tarjetas de BS</p>
@@ -34,7 +46,8 @@
                 </div>
             </div>
             <div class="col-md">
-                <div class="card text-center">
+                <div class="card text-center bg-warning">
+                    <img src="imagen.jpg" alt="fitness" class="card-img-top">
                     <div class="card-body">
                         <h4 class="card-title">Interface</h4>
                         <p class="card-text">Una interface es...</p>
@@ -43,7 +56,8 @@
                 </div>
             </div>
             <div class="col-md">
-                <div class="card text-center">
+                <div class="card text-center bg-danger">
+                    <img src="imagen.jpg" alt="fitness" class="card-img-top">
                     <div class="card-body">
                         <h4 class="card-title">Paquetes</h4>
                         <p class="card-text">Un paquete es...</p>
@@ -52,5 +66,7 @@
                 </div>
         </div>
     </div>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
