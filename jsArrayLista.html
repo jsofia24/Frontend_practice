@@ -9,13 +9,14 @@
 <body>
     <p id="lista"></p>
     <script>
-        let texto = ""
+        let texto = " "
         let producto = {descripcion: "Blusa", color: "Blanca", codigo: 12345}
         for (let i in producto){
             document.write(i)
             texto += producto[i]+ " "
         }
         document.getElementById("lista").innerHTML = texto
+        document.write("<br>")
 
         // conjuntos
         let productos = new Set(["Blusa","Falda","Camisa"])
