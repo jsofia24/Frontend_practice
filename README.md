@@ -1,3 +1,2 @@
-﻿# HTML, CSS, JS con Bootstrap
-Prácticas con HTML, CSS y JS con las clases de Misión TIC 2022, UTP
-Uso de Bootstrap
+﻿# HTML, CSS, JavaScript with Bootstrap
+General practice to delve deeper into HTML, CSS, JavaScript and Bootstrap
